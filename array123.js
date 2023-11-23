@@ -1,5 +1,5 @@
-Warmup-2 -- array123
-Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+// Warmup-2 -- array123
+// Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears in the array somewhere.
 
 function array123(nums){
     for(let i = 0; i < nums.length;i++){
@@ -7,4 +7,4 @@ function array123(nums){
     return true
     }
     }return false
-  }
+  }console.log(array123([2,5,6,1,2,3,8,9]));
